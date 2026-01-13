@@ -137,7 +137,7 @@ export default function MultiStepLogin() {
           >
             <div className="step-header">
               <div className="logo">
-                <img src="/src/assets/logo.png" alt="Logo" />
+                <img src="../../assets/logo.png" alt="Logo" />
               </div>
             </div>
 
