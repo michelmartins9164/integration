@@ -4,6 +4,7 @@ import * as Yup from "yup";
 import "./login.scss";
 import { toast } from "react-toastify";
 import { useTranslation } from "react-i18next";
+import logo from '../../assets/logo.png';
 
 interface Company {
   id: number;
@@ -137,7 +138,8 @@ export default function MultiStepLogin() {
           >
             <div className="step-header">
               <div className="logo">
-                <img src="../../assets/logo.png" alt="Logo" />
+                 <img src={logo} alt="Logo" />
+
               </div>
             </div>
 
