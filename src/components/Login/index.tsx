@@ -195,7 +195,7 @@ export default function MultiStepLogin() {
           <>
             <div className="step-header flex-between-center">
               <div className="logo">
-                <img src="/src/assets/logo.png" alt="Logo" />
+                 <img src={logo} alt="Logo" />
               </div>
               <button
                 onClick={handleBack}
@@ -253,7 +253,7 @@ export default function MultiStepLogin() {
           <>
             <div className="step-header flex-between-center">
               <div className="logo">
-                <img src="/src/assets/logo.png" alt="Logo" />
+                 <img src={logo} alt="Logo" />
               </div>
               <button
                 onClick={handleBack}
